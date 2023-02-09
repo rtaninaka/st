@@ -47,7 +47,6 @@ for i in range(100):
 text = st.text_area("Type something", "Write here")
 st.write("You wrote: ", text)
 
-
 # Button widget
 if st.button("Generate random number"):
     st.write("Random number: ", random.randint(0, 100))
